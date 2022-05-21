@@ -8,6 +8,7 @@ import Search from './components/Search';
 import Nav from './components/Nav';
 import './css/main.css';
 import './css/new.css';
+import './css/responsive.css'
 
 function App() {
   return (

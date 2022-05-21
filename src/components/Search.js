@@ -47,8 +47,8 @@ export class Search extends Component {
    
 
     return (
-        <div className="grid-container centered">
-        <div className="grid-100">
+        <div className="">
+        <div className="">
           <div className="contained">
             <div className="grid-100">
               <div className="heading">
@@ -57,7 +57,7 @@ export class Search extends Component {
                 </h1>
                 <form onSubmit={this.handleSubmit}>
                   {/* <label for="search">Search for anything</label> */}
-                  <input onChange={this.handleChange}
+                  <input classname="searchArea" onChange={this.handleChange}
                     type="search"
                     name="search"
                     id="search"
